@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    width: 250px;
+}
+div{
+    height: 350px;
+    border: 3px solid black;
+}
+#b1{
+    text-align: right;
+
+}
+#b2{
+    display: flex;
+    justify-content: center; /*горизонталь*/
+    align-items: center;/*вертикально*/
+}
+#b3{
+    display: flex;
+    justify-content: space-evenly; /*горизонталь*/
+    align-items: stretch;/*вертикально*/
+}
+#b4{
+    display: flex;
+    justify-content: flex-start; /*горизонталь*/
+    align-items: stretch;/*вертикально*/
+}
+#b5{
+    display: flex;
+    justify-content: center; /*горизонталь*/
+    align-items: baseline;/*вертикально*/
+}
+#b6{
+    display: flex;
+    justify-content: flex-end; /*горизонталь*/
+    align-items: flex-end;/*вертикально*/
+}
+#b7{
+    display: flex;
+    justify-content: baseline; /*горизонталь*/
+    align-items: flex-start;/*вертикально*/
+}
+#b8{
+    display: flex;
+    align-items: stretch;
+    justify-content: space-around;
+    height: 800px;
+    flex-wrap: wrap;
+}
+#b9{
+    height: 900px;
+    flex-direction: column-reverse;/*горизонталь и вертикаль поменялись местами*/
+    display: flex;
+    align-items: stretch;/*теперь горизонталь*/
+    justify-content: space-around;/*теперь вертикаль*/  
+}
+#b10{
+    height: 900px;
+    flex-direction: column;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+#yellow{
+    width: 100%;
+    height: 500px;
+    background-color: yellow;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#black1, #black2{
+    border: 5px solid yellow;
+    height: 240px;
+    background-color: black;
+    width: 90vw;
+}
+#black1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#black2{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+#orange{
+    height: 80%;
+    width: 80%;
+    border: none;
+    background-color: orange;
+}
+#pink{
+    height: 100%;
+    width: 20%;
+    border: none;
+    background-color: pink;
+    margin-right: 15px;
+}
+
+
+
