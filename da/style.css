@@ -1,0 +1,47 @@
+#black1, #black2{
+    margin: 5px;
+    width: 47%;
+    height: auto;
+    background-color: black;
+}
+div{
+
+}
+#gold{
+    background-color: gold;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center ;
+}
+#pink{
+    height: 25%;
+    width: 70%;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    margin-left: 125px;
+    margin-top: 20px;
+}
+#yellow{
+    border: 1px solid black;
+    margin-top: 2px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 2%;
+    width: 2%;
+}
+img{
+    width: 0px;
+}
+#green{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 10%;
+    width: 20%;
+    border: 1px solid black;
+}
